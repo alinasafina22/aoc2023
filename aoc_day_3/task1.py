@@ -2,7 +2,6 @@ import re
 
 f = open("/Users/alinasafina/PycharmProjects/aoc2023/aoc_day_3/input.txt", encoding="UTF-8")
 lines = [i.strip() for i in f]
-symbols = "*-+=@%$#!&"
 result = 0
 for line_index, line in enumerate(lines):
     prev_line = lines[line_index-1] if line_index - 1 >= 0 else None
