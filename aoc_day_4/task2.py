@@ -15,9 +15,10 @@ for index, line in enumerate(lines):
     for i in reg_num:
         if i in win_num:
             counter += 1
-    for i in range(index+1, index+counter+1):
-        print(1)
-        lines.insert(i, lines[i])
+    #         уходит в бесконечный цикл
+    # for i in range(index+1, index+counter+1):
+    #     print(1)
+    #     lines.insert(i, lines[i])
 
 
 
